@@ -11,15 +11,11 @@ export function useConstants() {
       href: "/skills",
     },
     {
-      id: 6,
+      id: 3,
       name: "Timeline",
       href: "/timeline",
     },
-    {
-      id: 3,
-      name: "Works",
-      href: "/works",
-    },
+  
     {
       id: 4,
       name: "Projects",
@@ -33,7 +29,7 @@ export function useConstants() {
     {
       id: 6,
       name: "Blog",
-      href: "https://blog.shadrackodielo.me/",
+      href: "/blog",
     },
   ];
 
@@ -194,8 +190,8 @@ export function useConstants() {
         "fslightbox-react",
       ],
       isUrl: true,
-      urlLink: "https://blog.shadrackodielo.me/",
-      githubLink: "https://github.com/eazypau/my-blog",
+      urlLink: "https://shadrackodielo.me/blog",
+      githubLink: "https://github.com/shadrackodielo/shadrackodielo.me",
     },
     {
       isReverse: true,
@@ -221,7 +217,7 @@ export function useConstants() {
       isUrl: true,
       urlLink: "https://order-management-drab.vercel.app/",
       // urlLink: "https://order-creation-web-app.vercel.app/en",
-      // githubLink: "https://github.com/eazypau/order-creation-web-app",
+      // githubLink: "https://github.com/shadrackodielo/order-creation-web-app",
     },
     {
       isReverse: false,
@@ -242,7 +238,7 @@ export function useConstants() {
       ],
       isUrl: true,
       urlLink: "https://eazy-chat-app.netlify.app/login",
-      githubLink: "https://github.com/eazypau/chatApp",
+      githubLink: "https://github.com/shadrackodielo/chatApp",
     },
     {
       isReverse: true,
@@ -261,7 +257,7 @@ export function useConstants() {
         "Spotify Web API",
       ],
       isUrl: false,
-      githubLink: "https://github.com/eazypau/spotify-clone-web",
+      githubLink: "https://github.com/shadrackodielo/spotify-clone-web",
     },
     {
       isReverse: false,
@@ -273,8 +269,8 @@ export function useConstants() {
         "A static E-Commerce website to demonstrate the flow of a user purchase",
       techStack: ["React", "SASS", "React-router"],
       isUrl: true,
-      urlLink: "https://eazypau.github.io/shopping-cart-react/#/",
-      githubLink: "https://github.com/eazypau/shopping-cart-react",
+      urlLink: "https://shadrackodielo.github.io/shopping-cart-react/#/",
+      githubLink: "https://github.com/shadrackodielo/shopping-cart-react",
     },
     {
       isReverse: true,
@@ -291,8 +287,8 @@ export function useConstants() {
         "React-beautiful-dnd",
       ],
       isUrl: true,
-      urlLink: "https://eazypau.github.io/kanban-board-react/",
-      githubLink: "https://github.com/eazypau/kanban-board-react",
+      urlLink: "https://shadrackodielo.github.io/kanban-board-react/",
+      githubLink: "https://github.com/shadrackodielo/kanban-board-react",
     },
     {
       isReverse: false,
@@ -313,7 +309,7 @@ export function useConstants() {
       ],
       isUrl: true,
       urlLink: "https://saloonbooking-95d49.web.app/",
-      githubLink: "https://github.com/eazypau/saloonbooking",
+      githubLink: "https://github.com/shadrackodielo/saloonbooking",
     },
     {
       isReverse: true,
@@ -324,8 +320,8 @@ export function useConstants() {
       description: "A game of tic tac toe in HTML, CSS, and JavaScript.",
       techStack: ["HTML", "CSS", "JavaScript"],
       isUrl: true,
-      urlLink: "https://eazypau.github.io/tictactoe/",
-      githubLink: "https://github.com/eazypau/tictactoe",
+      urlLink: "https://shadrackodielo.github.io/tictactoe/",
+      githubLink: "https://github.com/shadrackodielo/tictactoe",
     },
   ];
   const workingProjects = [

@@ -3,6 +3,7 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
+    baseURL: "/portfolio-nuxt3-website/",
     head: {
       htmlAttrs: {
         lang: "en",
@@ -23,7 +24,7 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, eazypau, Malaysia",
+            "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, shadrackodielo, Malaysia",
         },
         // social meta tags
         {
@@ -52,7 +53,26 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", href: "/favicon-bw.png" }],
     },
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss",
+            "@nuxt/content",
+            "@nuxtjs/color-mode",
+
+  ],extends: "@nuxt-themes/typography",
+    colorMode: {
+    preference: "dark",
+    classSuffix: "",
+  },
+  content: {
+    markdown: {
+      remarkPlugins: ["remark-reading-time"],
+    },
+    highlight: {
+      theme: {
+        default: "github-light",
+        dark: "github-dark",
+      },
+    },
+  },
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
   },

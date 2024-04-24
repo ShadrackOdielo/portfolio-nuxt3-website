@@ -2,9 +2,9 @@
   <nav id="nav-bar" class="navPadding" :class="navBgTextColor" style="height: 70px">
     <div class="lg:w-1/12">
       <Transition appear name="fadeIn">
-        <NuxtLink v-if="!loading" href="/" class="home-button" aria-label="YZ.">
-          <img :src="logo" width="40" height="40" alt="favicon" loading="lazy" />
-          <p>YZ.</p>
+        <NuxtLink v-if="!loading" href="/" class="home-button" aria-label="SO">
+          <img v-if="$route.path === '/'" src="/avatar.jpg" class="h-24 w-24 rounded-full border-stone-200 dark:border-stone-900 md:h-32 md:w-32" alt="S" loading="lazy" />
+          <p v-else >Shadrack Odielo.</p>
         </NuxtLink>
       </Transition>
     </div>

@@ -11,15 +11,15 @@ const jsonLd = {
   description:
     "Personal Portfolio Website. Hi, I am Po Yi Zhi. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
   keywords:
-    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, eazypau, Malaysia",
-  image: "https://www.shadrackodielo.me/profile-pics/profile.webp",
+    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, shadrackodielo, Malaysia",
+  image: "https://www.shadrackodielo.me/profile-pics/avatar.jpg",
 };
 const personJson = {
   "@context": "https://schema.org/",
   "@type": "Person",
-  "@id": "#poyizhi",
-  name: "Po Yi Zhi",
-  email: "poyizhi@gmail.com",
+  "@id": "#shadrackodielo",
+  name: "Shadrack  Odielo",
+  email: "shadrackodielo@gmail.com",
   url: "https://www.shadrackodielo.me/",
 };
 useHead({

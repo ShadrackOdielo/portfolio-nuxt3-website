@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const currentUrl = window.location.href;
-  if (!currentUrl.includes("eazypau")) {
+  if (!currentUrl.includes("shadrackodielo")) {
     setInterval(() => {
       const headerEl = document.querySelector("div#__nuxt div");
       const footerEl = document.querySelector("footer .copyright");

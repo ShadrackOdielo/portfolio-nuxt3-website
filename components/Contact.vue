@@ -39,7 +39,7 @@
             </p>
           </div>
           <div>
-            <a href="mailto:poyizhi@gmail.com"> <EnvelopeIcon /> Say Hello! </a>
+            <a href="mailto:shadrackodiel@gmail.com"> <EnvelopeIcon /> Say Hello! </a>
             <a
               v-if="isSeeking"
               href="/resume/my-resume.pdf"

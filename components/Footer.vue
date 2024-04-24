@@ -16,19 +16,14 @@
 
         <!-- social - start -->
         <div>
-          <a href="https://www.instagram.com/yzpo/" aria-label="Instagram" target="_blank" class="footerIcon">
-            <IconsInstaIcon />
+          <a href="https://twitter.com/odielo_ke" aria-label="Twitter" target="_blank" class="footerIcon">
+            <IconsTwitterIcon />
           </a>
-
-          <a href="https://www.facebook.com/yizhipo" aria-label="Facebook" target="_blank" class="footerIcon">
-            <IconsFacebookIcon />
-          </a>
-
-          <a href="https://www.linkedin.com/in/yzpo/" aria-label="Linkden" target="_blank" class="footerIcon">
+          <a href="https://www.linkedin.com/in/shadrack-odielo-30258a212/" aria-label="Linkden" target="_blank" class="footerIcon">
             <IconsLinkedInIcon />
           </a>
 
-          <a href="https://github.com/eazypau" aria-label="Github" target="_blank" class="footerIcon">
+          <a href="https://github.com/shadrackodielo" aria-label="Github" target="_blank" class="footerIcon">
             <IconsGithubIcon />
           </a>
         </div>
@@ -36,7 +31,7 @@
       </div>
 
       <div class="copyright">
-        © {{ CURRENT_YEAR }} - Present Po Yi Zhi. All rights reserved.
+        © {{ CURRENT_YEAR }} - Present Shadrack Odielo. All rights reserved.
       </div>
     </footer>
   </div>
