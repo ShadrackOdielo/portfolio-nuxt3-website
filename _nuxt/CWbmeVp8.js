@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as n,Y as c}from"./BeA9sAHg.js";const t={},a={class:"prose-code-inline"};function r(e,d){return s(),n("code",a,[c(e.$slots,"default",{},void 0,!0)])}const l=o(t,[["render",r],["__scopeId","data-v-aa2839a0"]]);export{l as default};

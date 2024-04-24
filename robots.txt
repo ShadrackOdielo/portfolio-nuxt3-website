@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /mailto:shadrackodielo@gmail.com
+Disallow: /resume/my-resume.pdf
+
+Sitemap: http://www.shadrackodielo.me/sitemap.xml
