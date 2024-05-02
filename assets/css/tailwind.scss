@@ -1,8 +1,10 @@
-@import "../../node_modules/tailwindcss/base";
-@import "../../node_modules/tailwindcss/components";
-@import "../../node_modules/tailwindcss/utilities";
+// @import "../../node_modules/tailwindcss/base";
+// @import "../../node_modules/tailwindcss/components";
+// @import "../../node_modules/tailwindcss/utilities";
 @import "utilities.scss";
-
+@tailwind utilities;
+@tailwind components;
+@tailwind base;
 
 // general
 body {
