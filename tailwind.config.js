@@ -14,15 +14,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        tea: "url('/hobbies/tea-cup.webp')",
-        blog: "url('/hobbies/myblog.webp')",
-        music:
-          "url('/hobbies/negative-space-headphones-black-white-corey-blaz.webp')",
-        grocer: "url('/hobbies/grocer.webp')",
-        journaling: "url('/hobbies/journaling.webp')",
-        programming: "url('/hobbies/programming.webp')",
-      },
+      // backgroundImage: {
+      //   tea: "url('~/public/hobbies/tea-cup.webp')",
+      //   blog: "url('~/public/hobbies/myblog.webp')",
+      //   music:
+      //     "url('/hobbies/negative-space-headphones-black-white-corey-blaz.webp')",
+      //   grocer: "url('/hobbies/grocer.webp')",
+      //   journaling: "url('/hobbies/journaling.webp')",
+      //   programming: "url('/hobbies/programming.webp')",
+      // },
       minWidth: {
         sm: "20rem",
         md: "28rem",
