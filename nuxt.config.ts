@@ -3,7 +3,6 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
-    baseURL: "/portfolio-nuxt3-website/",
     head: {
       htmlAttrs: {
         lang: "en",
