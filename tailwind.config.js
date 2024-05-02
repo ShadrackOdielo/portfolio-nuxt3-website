@@ -7,6 +7,11 @@ module.exports = {
     "./app.vue",
     "./plugins/**/*.{js,ts}",
   ],
+  use: [
+    'style-loader',
+    'css-loader',
+    'sass-loader',
+  ],
   theme: {
     extend: {
       backgroundImage: {
